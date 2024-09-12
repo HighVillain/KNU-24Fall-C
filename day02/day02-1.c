@@ -3,7 +3,7 @@ int main(void) {
 	int dustks;
 	double num1, num2, result;
 	printf("연산자를 선택하세요.\n");
-	printf("1.�더하기ϱ� 2.빼기 3.곱하기, 4.나누기\n");
+	printf("1.더하기 2.빼기 3.곱하기, 4.나누기\n");
 	scanf_s("%d", &dustks);
 	printf("숫자1을 입력하세요\n");
 	scanf_s("%lf", &num1);
