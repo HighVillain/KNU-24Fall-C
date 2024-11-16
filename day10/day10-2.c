@@ -52,7 +52,7 @@ void insertPriorityNode(struct Node* newnode) {
 	}
 	else {
 		struct Node* cur = head;
-		while (cur != NULL&&compareCustomer(cur->next,newnode)<=0) {
+		while (cur ->next!= NULL&&compareCustomer(cur->next,newnode)<=0) {
 			cur = cur->next;
 		}
 		newnode->next = cur->next;
